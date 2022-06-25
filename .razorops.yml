@@ -1,6 +1,6 @@
 tasks:
   unit-test:
-    runner: maven
+    runner: razorci/openjdk:11-buster
     steps:
     - checkout
     - commands:
